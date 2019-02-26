@@ -1,8 +1,10 @@
 # Go Game with AI
 
 A full-stack web application to demonstrate how a convolutional neural network works with a fun game, Go!
+
 This project is an implementation of [BetaGo](https://github.com/maxpumperla/betago) and uses its libraries to generate and serve
 a model to predict moves.
+
 The web client is written in Angular 7.
 
 ![Go game](https://github.com/antkaynak/GoGame/blob/master/gogame.png)
