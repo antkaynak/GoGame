@@ -1,0 +1,20 @@
+<div class="menu" style="text-align: center; height: 100vh; width: 100%; background: rgb(158,158,158)">
+    <img [src]="'../../assets/menu_bg.png'" alt="">
+  <mat-card style="width: 20%; height: 30%; margin: 75px auto auto;">
+    <mat-list>
+      <mat-list-item (mouseover)="mouseOver(play2)" (mouseleave)="mouseOverEnd(play2)" style="cursor: pointer" routerLink="/game">
+        <img #play2 matListAvatar src="../../assets/menu_white.png"
+             alt="...">
+        <p style="margin: 26%; font-size: 1.25em">Play</p>
+      </mat-list-item>
+      <mat-list-item (mouseover)="mouseOver(online)" (mouseleave)="mouseOverEnd(online)" style="cursor: pointer">
+        <img #online matListAvatar src="../../assets/menu_white.png" alt="...">
+        <p style="margin: 26%; font-size: 1.25em">Online</p>
+      </mat-list-item>
+      <mat-list-item (mouseover)="mouseOver(about)" (mouseleave)="mouseOverEnd(about)" style="cursor: pointer">
+        <img #about matListAvatar src="../../assets/menu_white.png" alt="...">
+        <p style="margin: 26%; font-size: 1.25em">About</p>
+      </mat-list-item>
+    </mat-list>
+  </mat-card>
+</div>
