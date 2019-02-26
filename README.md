@@ -5,6 +5,8 @@ This project is an implementation of [BetaGo](https://github.com/maxpumperla/bet
 a model to predict moves.
 The web client is written in Angular 7.
 
+![Go game](https://github.com/antkaynak/GoGame/blob/master/gogame.png)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
